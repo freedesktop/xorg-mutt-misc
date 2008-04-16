@@ -42,7 +42,7 @@ fontdir = @FONTDIR@
 font_DATA = $(PCF_FILES)
 CLEANFILES = $(font_DATA)
 
-EXTRA_DIST = $(BDF_FILES) autogen.sh README
+EXTRA_DIST = $(BDF_FILES) autogen.sh
 
 install-data-hook:
 	@rm -f $(DESTDIR)$(fontdir)/fonts.scale
