@@ -26,7 +26,6 @@ AC_INIT([font-mutt-misc], [1.0.3],
         [https://bugs.freedesktop.org/enter_bug.cgi?product=xorg],
         [font-mutt-misc])
 AM_INIT_AUTOMAKE([foreign dist-bzip2])
-AM_MAINTAINER_MODE
 
 # Require xorg-macros: XORG_DEFAULT_OPTIONS
 m4_ifndef([XORG_MACROS_VERSION],
